@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('images/pexels-photo-583846.jpeg');
+}
+form 
+{
+    margin: 200px  auto 0 auto;
+    width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    min-height: 500px;
+    padding: 20px 10px;
+    font-family: 'Times New Roman', Times, sans-serif;
+    border: 1px solid rgba(0,0,0,0.1);
+
+}
+form > h1 {
+    text-align: center;
+}
+.form-control {
+    margin-top: 20px;
+    text-align: center;
+}
+.form-control > input {
+    margin: 0 auto;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+div > h4 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+div > a {
+    text-decoration: none;
+}
+
+div > label > input {
+    width: 300px;
+    outline: none;
+    height: 60px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.5);
+    font-size: 18px;
+}
+
+div > label > button {
+    width: 300px;
+    height: 60px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 3px solid rgba(0,0,0,0.2);
+    background-image: linear-gradient(to right, #42a0e6, #5c8bea, #a050f3, #e90ffc );
+    color: white;
+    cursor: pointer;
+}
+
+.info {
+    text-align: center;    
+}
+
+.info > a {
+    border: 1px solid rgba(0,0,0,0.5);
+    margin: 10px 15px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.footer > a {
+    color: blue;
+}
+
+.info > a:first-child {
+    color: blue;
+    
+}
+
+.info > a:last-child {
+    color: red;
+}
+
+
